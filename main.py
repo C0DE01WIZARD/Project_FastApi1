@@ -16,6 +16,7 @@ users = [
 ]
 
 
+
 @app.get("/user_id/{user_id}")
 async def get_user(user_id: int):
     return [user for user in users if user.get("id") == user_id]
