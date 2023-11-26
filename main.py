@@ -31,7 +31,7 @@ trades = [
 async def get_trades(limit: int = 1, offset: int = 0):
     return trades[offset:][:limit]
 
-
+# список Users_2
 users_2 = [
     {"id": 1, "role": "admin", "name": "Bob"},
     {"id": 2, "role": "investor", "name": "John"},
