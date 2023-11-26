@@ -12,3 +12,4 @@ async def function():
 @app.post("/post")
 async def function():
     pass
+    pass
