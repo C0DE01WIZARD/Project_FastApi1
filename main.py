@@ -11,5 +11,4 @@ async def function():
 
 @app.post("/post")
 async def function():
-    a = "Hello, Python"
-    return {"message": a}
+    pass
