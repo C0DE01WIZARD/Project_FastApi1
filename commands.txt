@@ -1,0 +1,4 @@
+                Команды:
+1) uvicorn main:app --reload - запуск сервера
+2)
+
